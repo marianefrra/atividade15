@@ -3,5 +3,13 @@
 n1 = float(input("digite o primiro número"))
 n2 = float(input("digite o segundo número"))
 
-multi = (n1*n2)
-print (f"o resultado final é = {multi}")
+operacao = input("digite a operaçã que deseja utilizar; soma, subtração, multiplicação ou divisão")
+
+if operacao == "soma":
+    print(n1 + n2)
+elif operacao == "subtração":
+    print(n1 - n2)
+elif operacao == "multplicação":
+    print(n1 * n2)
+if operacao == "divisão":
+    print(n1 / n2)
